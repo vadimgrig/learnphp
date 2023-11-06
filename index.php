@@ -93,9 +93,8 @@
 // </body>
 
 // </html> -->
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -108,11 +107,13 @@
 
 <body>
 	<?php
-	require_once 'templates/header.php';
+	// require_once 'templates/header.php';
 
-	require_once 'engine/files.php';
+	require_once 'engine/sessions.php';
 
-	require_once 'templates/footer.php';
+	require_once 'engine/team.php';
+
+	// require_once 'templates/footer.php';
 
 	?>
 </body>
